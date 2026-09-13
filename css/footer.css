@@ -4,6 +4,15 @@
   background-color: var(--color-navy-blue);
 }
 
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-left {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -19,4 +28,17 @@
 .footer-text {
   max-width: 264px;
   color: var(--color-cloud);
+}
+
+.footer-social-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.footer-socials-list {
+  gap: 16px;
 }

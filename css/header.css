@@ -30,6 +30,7 @@
 }
 
 .nav-link {
+  position: relative;
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -38,11 +39,27 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: var(--color-ocean);
+}
+
+.nav-link.current {
+  color: var(--color-ocean);
+}
+
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 65px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--color-ocean);
 }
 
 .address-list {
@@ -59,6 +76,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-address:hover,

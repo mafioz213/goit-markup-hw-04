@@ -7,6 +7,21 @@
   width: calc((1128px - 3 * 24px) / 4);
 }
 
+.features-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: var(--color-cloud);
+  border-radius: 4px;
+}
+
+.features-icon {
+  width: 64px;
+  height: 64px;
+}
+
 .features-item-title {
   margin-bottom: 8px;
   color: var(--color-navy-blue);
