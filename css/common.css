@@ -6,6 +6,8 @@
   --color-cornflower: #e7e9fc;
   --color-cloud: #f4f4fd;
   --color-white: #ffffff;
+  --color-light-slate: #8e8f99;
+  --color-green: #31d0aa;
 }
 
 *,
@@ -102,7 +104,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--color-iris);
-  color: var(--color-white);
+    color: var(--color-cloud);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

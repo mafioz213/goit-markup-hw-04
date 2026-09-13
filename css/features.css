@@ -14,9 +14,9 @@
   height: 112px;
   margin-bottom: 8px;
   background-color: var(--color-cloud);
+  border: 1px solid var(--color-light-slate);
   border-radius: 4px;
 }
-
 .features-icon {
   width: 64px;
   height: 64px;

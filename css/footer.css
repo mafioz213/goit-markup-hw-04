@@ -42,3 +42,7 @@
 .footer-socials-list {
   gap: 16px;
 }
+.footer-socials-list .socials-link:hover,
+.footer-socials-list .socials-link:focus {
+  background-color: var(--color-green);
+}
